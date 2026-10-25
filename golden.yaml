@@ -2,11 +2,13 @@
 # Format and rules: @rtm/ingest src/golden.ts and the site's docs/quality-harness.md ("Golden pages").
 # A page marked xfail is a known pipeline defect: it stays red here, verify stays green, and the bead says why.
 # Printed page = PDF page - 5 in the body (contents are iii at PDF p.4). Chosen to avoid the families' testimony; the pages hold only the Inquiry's own findings.
-# The tags give 50 H3 and 15 H4 headings: H3 and H4 share one face here, so the pipeline serves both at level 3 (truth below says 4 for the H4).
+# The tags give 50 H3 and 15 H4 headings: H3 and H4 share one face here, so the pipeline serves both at one level (truth below says 3 for the H3, 4 for the H4). Since 2026-10-25 that level is 4, so that the site's sections follow the chapters (reportsthatmatter-o1jj): pages whose H3s now fail on level are xfail on that bead.
 pages:
   # Chapter 1's opening page: the white-on-navy title banner, two sub-headings, hanging-indent numbered paragraphs.
   - pdf: 6
     printed: 1
+    xfail: reportsthatmatter-o1jj
+    xfail_only: [blocks]
     verified_by: "Claude (Sonnet 5.5), 2026-10-25, against the page image"
     features: [H]
     blocks:
@@ -43,6 +45,8 @@ pages:
   # A sub-heading, a bullet list of five years' figures, and a paragraph (1.25) that runs over to the next page.
   - pdf: 9
     printed: 4
+    xfail: reportsthatmatter-o1jj
+    xfail_only: [blocks]
     verified_by: "Claude (Sonnet 5.5), 2026-10-25, against the page image"
     features: [H, ordinary]
     blocks:
@@ -128,6 +132,8 @@ pages:
   # A page that opens mid-paragraph (end of the paragraph before) and a chapter sub-heading in the middle of it.
   - pdf: 71
     printed: 66
+    xfail: reportsthatmatter-o1jj
+    xfail_only: [blocks]
     verified_by: "Claude (Sonnet 5.5), 2026-10-25, against the page image"
     features: [H, ordinary]
     continues_previous: true
