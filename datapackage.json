@@ -23,8 +23,8 @@
           "web": "https://www.gov.uk/government/publications/thirlwall-inquiry-report"
         },
         {
-          "title": "Wayback Machine capture of 21 September 2026 (byte-identical)",
-          "web": "https://web.archive.org/web/20260921000000*/https://thirlwall.public-inquiry.uk/wp-content/uploads/2026/09/Thirlwall-Inquiry_Summary-Report_Accessible.pdf"
+          "title": "Wayback Machine capture of 21 September 2026 (byte-identical; calendar link)",
+          "web": "https://web.archive.org/web/2026*/https://thirlwall.public-inquiry.uk/wp-content/uploads/2026/09/Thirlwall-Inquiry_Summary-Report_Accessible.pdf"
         }
       ]
     }
