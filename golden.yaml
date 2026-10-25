@@ -1,0 +1,148 @@
+# Golden pages: ground truth for this report, read off the PDF page image and checked by `pnpm ingest verify`.
+# Format and rules: @rtm/ingest src/golden.ts and the site's docs/quality-harness.md ("Golden pages").
+# A page marked xfail is a known pipeline defect: it stays red here, verify stays green, and the bead says why.
+# Printed page = PDF page - 5 in the body (contents are iii at PDF p.4). Chosen to avoid the families' testimony; the pages hold only the Inquiry's own findings.
+# The tags give 50 H3 and 15 H4 headings: H3 and H4 share one face here, so the pipeline serves both at one level (truth below says 3 for the H3, 4 for the H4). Since 2026-10-25 that level is 4, so that the site's sections follow the chapters (reportsthatmatter-o1jj): pages whose H3s now fail on level are xfail on that bead.
+pages:
+  # Chapter 1's opening page: the white-on-navy title banner, two sub-headings, hanging-indent numbered paragraphs.
+  - pdf: 6
+    printed: 1
+    xfail: reportsthatmatter-o1jj
+    xfail_only: [blocks]
+    verified_by: "Claude (Sonnet 5.5), 2026-10-25, against the page image"
+    features: [H]
+    blocks:
+      - heading: "1. Introduction"
+        level: 2
+      - heading: "The Report"
+        level: 3
+      - paragraph: {start: "1.1 This Summary report is an", end: "contains references to supporting material."}
+      - paragraph: {start: "1.2 The Report is not a", end: "behalf of all Core Participants."}
+      - paragraph: {start: "1.3 My focus has been on", end: "contains the recommendations and appendices."}
+      - heading: "Hindsight"
+        level: 3
+      - paragraph: {start: "1.4 No one expects people who", end: "the quality of a decision."}
+  # Two headings stacked with nothing between them ("Context" a sub-heading, "The Countess" under it), same face: read as one.
+  - pdf: 7
+    printed: 2
+    verified_by: "Claude (Sonnet 5.5), 2026-10-25, against the page image"
+    features: [H]
+    xfail: reportsthatmatter-e9im
+    xfail_only: [blocks]
+    blocks:
+      - paragraph: {start: "1.5 Some of the witnesses (Mr", end: "of witnesses at the Inquiry."}
+      - paragraph: {start: "1.6 In setting out what was", end: "even reference to the parents."}
+      - paragraph: {start: "1.7 The Report sets out a", end: "for the mistakes they made."}
+      - heading: "Context"
+        level: 3
+      - heading: "The Countess"
+        level: 4
+      - paragraph: {start: "1.8 In 2015, the Countess of", end: "the Care Quality Commission (CQC)."}
+      - paragraph: {start: "1.9 Mr Tony Chambers, a former", end: "occasional shifts as a nurse."}
+      - paragraph: {start: "1.10 Ms Sue Hodkinson was appointed", end: "Finance Officers at this time."}
+      - paragraph: {start: "1.11 Sir Duncan Nichol CBE, former", end: "joined the Board in 2016."}
+      - paragraph: {start: "1.12 Until 2009, paediatrics and maternity", end: "obstetrics were separated from paediatrics."}
+  # A sub-heading, a bullet list of five years' figures, and a paragraph (1.25) that runs over to the next page.
+  - pdf: 9
+    printed: 4
+    xfail: reportsthatmatter-o1jj
+    xfail_only: [blocks]
+    verified_by: "Claude (Sonnet 5.5), 2026-10-25, against the page image"
+    features: [H, ordinary]
+    blocks:
+      - paragraph: {start: "1.20 A consultant was allocated the", end: "at a later morning handover."}
+      - paragraph: {start: "1.21 During 2015 and 2016, the", end: "of consultant paediatricians to seven."}
+      - paragraph: {start: "1.22 The unit received very few", end: "suspicions were expressed about Letby."}
+      - heading: "Deaths on the neonatal unit"
+        level: 3
+      - paragraph: {start: "1.23 In the years preceding 2015,", end: "of admissions each year was:"}
+      - list: {start: "2010: 1 death; 422 admissions 2011:", end: "2014: 3 deaths; 557 admissions", items: 5}
+      - paragraph: {start: "1.24 In 2015, eight babies out", end: "Baby E and Baby I."}
+      - paragraph: {start: "1.25 There were 496 admissions to", end: "37 weeks and 1 day."}
+  # A year and a topic stacked as two sub-headings ("2016" over "Thematic Review"), and a quoted review document in italics (indented) running over the page.
+  - pdf: 35
+    printed: 30
+    verified_by: "Claude (Sonnet 5.5), 2026-10-25, against the page image"
+    features: [H, Q]
+    xfail: reportsthatmatter-e9im
+    xfail_only: [blocks]
+    blocks:
+      - paragraph: {start: "3.16 The minutes of the QSPEC", end: "the Urgent Care Divisional Board."}
+      - heading: "2016"
+        level: 3
+      - heading: "Thematic Review"
+        level: 4
+      - paragraph: {start: "3.17 There was a further death", end: "want to wilfully harm babies\"."}
+      - paragraph: {start: "3.18 On 8 February 2016, the", end: "otherwise stable baby is rare\"."}
+      - paragraph: {start: "3.19 At Mr Harvey's request, Dr", end: "the time of the deaths."}
+      - paragraph: {start: "3.20 The final version of the", end: "all cases', the following appears:"}
+      - quote: {start: "\"There was no common theme identified", end: "deterioration/death identified at PM [post-mortem]."}
+  # A page that opens mid-paragraph; witness evidence quoted in italics inside paragraphs; the report's one footnote, an asterisk note at the foot (read as a paragraph).
+  - pdf: 44
+    printed: 39
+    verified_by: "Claude (Sonnet 5.5), 2026-10-25, against the page image"
+    features: [F, Q]
+    xfail: reportsthatmatter-b1za
+    xfail_only: [blocks]
+    continues_previous: true
+    opens_with: "of a referral to the police."
+    blocks:
+      - paragraph: {start: "3.66 The day after the Board", end: "Risk and Patient Safety Department."}
+      - paragraph: {start: "3.67 The issue of Letby's redeployment", end: "was backed by her union."}
+      - paragraph: {start: "3.68 When she was giving evidence", end: "patient safety and advised accordingly."}
+      - paragraph: {start: "3.69 In a later conversation with", end: "necessary to alert the police."}
+  # A sub-heading that is only a year ("2018"), set in the sub-heading face: skipped by the heading pass, and the line is lost.
+  - pdf: 66
+    printed: 61
+    verified_by: "Claude (Sonnet 5.5), 2026-10-25, against the page image"
+    features: [H]
+    xfail: reportsthatmatter-e9im
+    xfail_only: [blocks]
+    continues_previous: true
+    opens_with: "police would not investigate."
+    blocks:
+      - paragraph: {start: "3.203 On 15 May 2017, following", end: "when they met the executives."}
+      - paragraph: {start: "3.204 The police should have been", end: "succeeded for almost a year."}
+      - paragraph: {start: "3.205 Over the 11 months from", end: "and without disrupting patient care."}
+      - paragraph: {start: "3.206 The Inquiry heard evidence from", end: "had a right to know."}
+      - heading: "2018"
+        level: 3
+      - paragraph: {start: "3.207 On 30 April 2018, all", end: "heel or move them out."}
+      - paragraph: {start: "3.208 Mr Harvey retired, as long", end: "wrong\" and she explained why."}
+  # Chapter 4's title banner ("4. Part Two") is a chapter heading like chapters 1-3; the page then carries two chapter-summary sub-headings.
+  - pdf: 68
+    printed: 63
+    verified_by: "Claude (Sonnet 5.5), 2026-10-25, against the page image"
+    features: [H]
+    xfail: reportsthatmatter-hy63
+    xfail_only: [blocks]
+    blocks:
+      - heading: "4. Part Two"
+        level: 2
+      - paragraph: {start: "4.1 The following brief summaries of", end: "necessary to understand the detail."}
+      - heading: "Chapter 31: Implementation of recommendations of inquiries"
+        level: 3
+      - paragraph: {start: "4.2 The first detailed work carried", end: "most have not been implemented."}
+      - paragraph: {start: "4.3 Even where recommendations are accepted,", end: "third, lack of political will."}
+      - paragraph: {start: "4.4 In September 2024, the House", end: "this could and should work."}
+      - paragraph: {start: "4.5 Within government, there is a", end: "to the National Audit Office."}
+      - heading: "Chapter 32: Medical examiners"
+        level: 3
+      - paragraph: {start: "4.6 In July 2003, Dame Janet", end: "after it had been agreed."}
+  # A page that opens mid-paragraph (end of the paragraph before) and a chapter sub-heading in the middle of it.
+  - pdf: 71
+    printed: 66
+    xfail: reportsthatmatter-o1jj
+    xfail_only: [blocks]
+    verified_by: "Claude (Sonnet 5.5), 2026-10-25, against the page image"
+    features: [H, ordinary]
+    continues_previous: true
+    opens_with: "(managerial, medical, nursing or other) and money"
+    blocks:
+      - heading: "Chapter 37: Training and regulation of managers"
+        level: 3
+      - paragraph: {start: "4.18 The core purpose of a", end: "retain excellent managers is urgent."}
+      - paragraph: {start: "4.19 The Terms of Reference require", end: "ignored and reconsidered for decades."}
+      - paragraph: {start: "4.20 The Inquiry heard ample evidence", end: "profound change is long overdue."}
+      - paragraph: {start: "4.21 The current government proposal on", end: "help professionalise NHS leaders generally."}
+      - paragraph: {start: "4.22 More fundamentally, the fact that", end: "a full statutory regulation system."}

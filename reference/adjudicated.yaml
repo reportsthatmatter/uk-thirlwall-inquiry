@@ -1,0 +1,215 @@
+report: uk-thirlwall-inquiry
+adjudicated: 2026-10-25
+by: "Claude (Opus 5.5), thirlwall"
+method: "Held-out reference (tagged-PDF blocks, reference/blocks.jsonl): 30 page breaks drawn by `pnpm score --adjudicate-draft` (random and disagreement strata). Question: does a new block start at the break, or does the block run on. Decided from the text where a sentence visibly runs on or a numbered paragraph, heading or chapter banner opens the page; the four quotation cases (pp.15, 36, 37, 64) checked against the Inquiry's HTML edition, whose li/blockquote blocks match the PDF's."
+breaks:
+  - page: 2
+    prev: "HC 601"
+    next: "Thirlwall Inquiry"
+    verdict: split
+    stratum: random
+    image: false
+    note: "cover, then title page"
+  - page: 3
+    prev: "HC 601"
+    next: "© Crown copyright 2026"
+    verdict: split
+    stratum: random
+    image: false
+    note: "title page, then verso"
+  - page: 4
+    prev: "behalf of the Controller of His Majesty’s Stationery Office."
+    next: "Contents"
+    verdict: split
+    stratum: random
+    image: false
+    note: "verso, then contents"
+  - page: 8
+    prev: "ty services and obstetrics were separated from paediatrics. "
+    next: "Paediatrics (including neonatology) was moved into the Urgen"
+    verdict: join
+    stratum: random
+    image: false
+    note: ""
+  - page: 10
+    prev: "ncerns persistently expressed by consultant paediatricians, "
+    next: "Letby was moved off the unit into a non-clinical role in the"
+    verdict: join
+    stratum: random
+    image: false
+    note: ""
+  - page: 14
+    prev: "ity, and she had not been asked to be involved. Nurse W had "
+    next: "told her repeatedly that she should be looking after the chi"
+    verdict: join
+    stratum: random
+    image: false
+    note: ""
+  - page: 15
+    prev: " He told Mother D: “[E]verything’s fine, she’s much better. "
+    next: "She’s come off the light therapy. She’s picking up. She seem"
+    verdict: join
+    stratum: disagreement
+    image: false
+    note: "a quoted remark runs on within 2.x (sentence ends, quotation continues)"
+  - page: 26
+    prev: "would happen.”"
+    next: "2.108 Parents L and M were on the maternity ward when they w"
+    verdict: split
+    stratum: random
+    image: false
+    note: ""
+  - page: 27
+    prev: "allocated nurse."
+    next: "2.117 Parents N were called to attend the neonatal unit. Mot"
+    verdict: split
+    stratum: random
+    image: false
+    note: ""
+  - page: 31
+    prev: "to know what was happening to our child.”"
+    next: "2.151 In Mother Q’s victim impact statement to the criminal "
+    verdict: split
+    stratum: random
+    image: false
+    note: ""
+  - page: 32
+    prev: "was lamentable."
+    next: "3. Concerns, reviews, errors"
+    verdict: split
+    stratum: random
+    image: false
+    note: "chapter 2 ends; chapter 3 banner"
+  - page: 34
+    prev: "ated nurse for Baby A and Baby E. Ms Powell marked her name "
+    next: "in red on the table. She said that, as she added Letby’s nam"
+    verdict: join
+    stratum: random
+    image: false
+    note: ""
+  - page: 36
+    prev: " for the deterioration/death identified at PM [post-mortem]."
+    next: "2. Timing of arrests"
+    verdict: split
+    stratum: random
+    image: false
+    note: "next numbered item of the quoted Thematic Review (HTML blockquote per item)"
+  - page: 37
+    prev: "ied, reported, identified, investigated and lessons learnt. "
+    next: "So individual examples of incidents would not be pursued. Bu"
+    verdict: join
+    stratum: random
+    image: false
+    note: "quoted evidence in 3.26 runs on (HTML: one blockquote)"
+  - page: 41
+    prev: "investigate."
+    next: "3.49 When the police investigate crime, they have access to "
+    verdict: split
+    stratum: random
+    image: false
+    note: ""
+  - page: 42
+    prev: "during that review."
+    next: "3.54 DHSC have confirmed to the Inquiry that, as of May 2026"
+    verdict: split
+    stratum: random
+    image: false
+    note: ""
+  - page: 44
+    prev: "rd away from concerns about criminal acts and the necessity "
+    next: "of a referral to the police. Nevertheless, there was concern"
+    verdict: join
+    stratum: random
+    image: false
+    note: ""
+  - page: 50
+    prev: "not begin to resolve the concerns about the increase in the "
+    next: "number of deaths on the neonatal unit. Its recommendations, "
+    verdict: join
+    stratum: random
+    image: false
+    note: ""
+  - page: 57
+    prev: "ic secondary review on Baby A and a version of the Thematic "
+    next: "Review (with the deaths of babies other than Baby A removed)"
+    verdict: join
+    stratum: random
+    image: false
+    note: ""
+  - page: 59
+    prev: "was due to a natural or unnatural event.”"
+    next: "3.157 The underlying approach from the executives may be gle"
+    verdict: split
+    stratum: random
+    image: false
+    note: ""
+  - page: 60
+    prev: "ondered whether there were reputational motives [for] there "
+    next: "being no right of ‘appeal’ from the Royal College’s findings"
+    verdict: join
+    stratum: random
+    image: false
+    note: ""
+  - page: 63
+    prev: "st still being focused on the consultants being the problem."
+    next: "3.181 Overall, witnesses from NHS England were highly critic"
+    verdict: split
+    stratum: random
+    image: false
+    note: ""
+  - page: 64
+    prev: "wn. What followed in the meeting was good evidence of that. "
+    next: "The minutes contain the first record of Mr Chambers raising "
+    verdict: join
+    stratum: random
+    image: false
+    note: "3.188 runs on (HTML: one li)"
+  - page: 67
+    prev: "he was told that the RCPCH review had not found evidence of "
+    next: "deliberate harm and a detailed specialist review of the case"
+    verdict: join
+    stratum: random
+    image: false
+    note: ""
+  - page: 68
+    prev: "website and in Appendix 1."
+    next: "4. Part Two"
+    verdict: split
+    stratum: random
+    image: false
+    note: "chapter 3 ends; chapter 4 banner"
+  - page: 70
+    prev: "afe access, storage, handling, prescription, administration "
+    next: "and disposal of insulin. This includes individually identifi"
+    verdict: join
+    stratum: random
+    image: false
+    note: ""
+  - page: 72
+    prev: "view to moving to a full statutory regulation system. "
+    next: "Chapter 38: Duty of candour"
+    verdict: split
+    stratum: random
+    image: false
+    note: "new chapter sub-heading"
+  - page: 73
+    prev: "lator and threat of disciplinary proceedings. This occurred "
+    next: "at the Countess. It is in that context that there remains a "
+    verdict: join
+    stratum: random
+    image: false
+    note: ""
+  - page: 74
+    prev: "proceedings which may follow."
+    next: "4.34 The Inquiry heard evidence about the lack of clarity in"
+    verdict: split
+    stratum: random
+    image: false
+    note: ""
+  - page: 75
+    prev: "ed to follow, guidance and procedures. There was inadequate "
+    next: "training about what to do when concerns were raised about a "
+    verdict: join
+    stratum: random
+    image: false
+    note: ""

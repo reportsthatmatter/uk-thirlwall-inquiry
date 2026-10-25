@@ -1,0 +1,35 @@
+{
+  "report": "uk-thirlwall-inquiry",
+  "set": "held-out",
+  "edition": "The Summary report's PDF's own structure tree (tagged PDF, InDesign: H1-H4, P, LI/Lbl, role-mapped), accessible edition of 15 September 2026",
+  "licence": "Crown copyright, reused under the Open Government Licence v3.0 (https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+  "fetched": "2026-10-25",
+  "sources": [
+    {
+      "path": "archive/thirlwall-inquiry-summary-report-hc601.pdf",
+      "sha256": "a1e1a50e403a18d823c0c5ade1667d5dc1d6f95996032a3e1a96806a429c2db2",
+      "bytes": 554328
+    }
+  ],
+  "sources_note": "The reference is derived from the source PDF already in archive/, so no copy of the PDF is kept under reference/raw/.",
+  "blocks": {
+    "path": "reference/blocks.jsonl",
+    "sha256": "1bd8bf59259fb25bda585af66d4585f092bb815db88e07a3a7994fff9872878e",
+    "normaliser": "reportsthatmatter scripts/score/reference.py, adapter tagged, version 2",
+    "built": "2026-10-25",
+    "counts": {
+      "contents": 1,
+      "heading": 72,
+      "note": 1,
+      "paragraph": 454,
+      "quote": 15
+    },
+    "markers": 0,
+    "markers_linked": 0,
+    "words": 26394
+  },
+  "caveats": [
+    "A new publisher family (the Thirlwall Inquiry), so held out: score it, do not tune passes on it.",
+    "The Inquiry's own HTML edition of the summary (thirlwall.public-inquiry.uk/summary-chapter/summary-report/) has about 60 words broken by stray spaces inside them and no paragraph numbers, so it is not cached; the tags are the reference."
+  ]
+}

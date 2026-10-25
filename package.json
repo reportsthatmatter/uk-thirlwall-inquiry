@@ -1,0 +1,9 @@
+{
+  "name": "uk-thirlwall-inquiry",
+  "private": true,
+  "type": "module",
+  "description": "Source archive and ingestion definition for: Thirlwall Inquiry, Report of the Public Inquiry into events at the Countess of Chester Hospital, 2015 to 2018",
+  "dependencies": {
+    "@rtm/ingest": "github:reportsthatmatter/ingest#v0.33.0"
+  }
+}
