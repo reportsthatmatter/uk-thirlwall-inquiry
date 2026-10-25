@@ -1,0 +1,39 @@
+{
+  "name": "uk-thirlwall-inquiry",
+  "title": "Thirlwall Inquiry: Report of the Public Inquiry into events at the Countess of Chester Hospital, 2015 to 2018",
+  "resources": [
+    {
+      "title": "Report of the Public Inquiry into events at the Countess of Chester Hospital, 2015 to 2018: Summary report (accessible edition), HC 601, ISBN 978-1-5286-6790-6, ordered by the House of Commons to be printed 15 September 2026",
+      "path": "archive/thirlwall-inquiry-summary-report-hc601.pdf",
+      "format": "pdf",
+      "mediatype": "application/pdf",
+      "bytes": 554328,
+      "hash": "sha256:a1e1a50e403a18d823c0c5ade1667d5dc1d6f95996032a3e1a96806a429c2db2",
+      "sources": [
+        {
+          "title": "Thirlwall Inquiry: the report (Summary report, accessible PDF)",
+          "web": "https://thirlwall.public-inquiry.uk/wp-content/uploads/2026/09/Thirlwall-Inquiry_Summary-Report_Accessible.pdf"
+        },
+        {
+          "title": "Landing page: the Inquiry's report page",
+          "web": "https://thirlwall.public-inquiry.uk/the-report/"
+        },
+        {
+          "title": "Landing page: GOV.UK publication page (links back to the Inquiry's site)",
+          "web": "https://www.gov.uk/government/publications/thirlwall-inquiry-report"
+        },
+        {
+          "title": "Wayback Machine capture of 21 September 2026 (byte-identical)",
+          "web": "https://web.archive.org/web/20260921000000*/https://thirlwall.public-inquiry.uk/wp-content/uploads/2026/09/Thirlwall-Inquiry_Summary-Report_Accessible.pdf"
+        }
+      ]
+    }
+  ],
+  "licenses": [
+    {
+      "name": "OGL-UK-3.0",
+      "title": "Open Government Licence v3.0",
+      "path": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+    }
+  ]
+}
