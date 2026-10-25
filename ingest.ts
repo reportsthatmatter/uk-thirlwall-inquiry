@@ -34,7 +34,7 @@ export default pipeline({
     // A paragraph run over a page break joins when the layout says it runs on: 3.67 begins on PDF p.44 and
     // pages open mid-paragraph at the hanging indent ("of a referral to the police.", p.44; "police would not
     // investigate.", p.66).
-    layoutPageJoins(),
+    layoutPageJoins({ numberedBody: true }),
     // A quotation running over a page arrives as two (the quoted review document over PDF pp.35-36).
     quoteListRunOns(),
     // The running heads are SemiBold 10pt blue (#00608b): the report title on even printed pages ("Report of
