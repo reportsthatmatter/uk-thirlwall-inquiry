@@ -34,6 +34,8 @@ export default pipeline({
     // A paragraph run over a page break joins when the layout says it runs on: 3.67 begins on PDF p.44 and
     // pages open mid-paragraph at the hanging indent ("of a referral to the police.", p.44; "police would not
     // investigate.", p.66).
+    // numberedBody: every body paragraph is numbered, so a page opening on unnumbered body text continues the
+    // paragraph above even after a full stop (PDF pp.8, 10, 51, 64; unnumbered-page-opening 5 -> 1).
     layoutPageJoins({ numberedBody: true }),
     // A quotation running over a page arrives as two (the quoted review document over PDF pp.35-36).
     quoteListRunOns(),
