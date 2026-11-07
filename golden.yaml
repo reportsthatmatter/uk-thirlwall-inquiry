@@ -4,6 +4,15 @@
 # Printed page = PDF page - 5 in the body (contents are iii at PDF p.4). Chosen to avoid the families' testimony; the pages hold only the Inquiry's own findings.
 # The tags give 50 H3 and 15 H4 headings: H3 and H4 share one face here, so the pipeline serves both at one level (truth below says 3 for the H3, 4 for the H4). Since 2026-10-25 that level is 4, so that the site's sections follow the chapters (reportsthatmatter-o1jj): pages whose H3s now fail on level are xfail on that bead.
 pages:
+  # The contents: four entries with leaders, the fourth "4. Part Two ... 63", none of them a heading (reportsthatmatter-hy63: it had been read as a heading "Part Two").
+  - pdf: 4
+    printed: iii
+    verified_by: "Claude (Opus 5.5), 2026-11-07, against the page's text layer and the tag tree"
+    features: [H]
+    blocks:
+      - heading: "Contents"
+        level: 2
+      - paragraph: {start: "1. Introduction 1 2.", end: "4. Part Two 63"}
   # Chapter 1's opening page: the white-on-navy title banner, two sub-headings, hanging-indent numbered paragraphs.
   - pdf: 6
     printed: 1
@@ -77,13 +86,12 @@ pages:
       - paragraph: {start: "3.19 At Mr Harvey's request, Dr", end: "the time of the deaths."}
       - paragraph: {start: "3.20 The final version of the", end: "all cases', the following appears:"}
       - quote: {start: "\"There was no common theme identified", end: "deterioration/death identified at PM [post-mortem]."}
-  # A page that opens mid-paragraph; witness evidence quoted in italics inside paragraphs; the report's one footnote, an asterisk note at the foot (read as a paragraph).
+    must_be_quote: ["There was no common theme identified in all cases", "Some of the babies suddenly and unexpectedly deteriorated"]
+  # A page that opens mid-paragraph; witness evidence quoted in italics inside paragraphs; the report's one footnote, an asterisk note at the foot, served as note 1 (reportsthatmatter-b1za).
   - pdf: 44
     printed: 39
     verified_by: "Claude (Sonnet 5.5), 2026-10-25, against the page image"
     features: [F, Q]
-    xfail: reportsthatmatter-b1za
-    xfail_only: [blocks]
     continues_previous: true
     opens_with: "of a referral to the police."
     blocks:
@@ -91,6 +99,8 @@ pages:
       - paragraph: {start: "3.67 The issue of Letby's redeployment", end: "was backed by her union."}
       - paragraph: {start: "3.68 When she was giving evidence", end: "patient safety and advised accordingly."}
       - paragraph: {start: "3.69 In a later conversation with", end: "necessary to alert the police."}
+    footnotes: [1]
+    markers: [1]
   # A sub-heading that is only a year ("2018"), set in the sub-heading face: skipped by the heading pass, and the line is lost.
   - pdf: 66
     printed: 61
@@ -109,12 +119,12 @@ pages:
         level: 3
       - paragraph: {start: "3.207 On 30 April 2018, all", end: "heel or move them out."}
       - paragraph: {start: "3.208 Mr Harvey retired, as long", end: "wrong\" and she explained why."}
-  # Chapter 4's title banner ("4. Part Two") is a chapter heading like chapters 1-3; the page then carries two chapter-summary sub-headings.
+  # Chapter 4's title banner ("4. Part Two") is a chapter heading like chapters 1-3 (fixed, reportsthatmatter-hy63); the page then carries two chapter-summary sub-headings, which serve at level 4 like every sub-heading (o1jj).
   - pdf: 68
     printed: 63
     verified_by: "Claude (Sonnet 5.5), 2026-10-25, against the page image"
     features: [H]
-    xfail: reportsthatmatter-hy63
+    xfail: reportsthatmatter-o1jj
     xfail_only: [blocks]
     blocks:
       - heading: "4. Part Two"

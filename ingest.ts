@@ -10,7 +10,67 @@ import {
   numberedOpenings,
   hangingIndents,
   typographicHeadings,
+  numberedHeadings,
+  sequencedNoteOpenings,
 } from "@rtm/ingest";
+import type { BodyPass, SourcePass } from "@rtm/ingest";
+
+/**
+ * The report's one footnote is an asterisk, not a number (PDF p.44, printed 39): "as 'Beverly Allitt'.*" in 3.67 and
+ * "*      Beverly Allitt was a nurse convicted of ..." at the page foot. The note passes read numbered notes only, so
+ * the note stood in the body as a paragraph opening "*" and the marker stayed bare (reportsthatmatter-b1za). On that
+ * page alone, the asterisk is read as note 1: the marker after the closing quote and the note's own opening. The site
+ * numbers its notes, so it serves as note 1; the words are untouched.
+ */
+const asteriskNote: SourcePass = {
+  name: "asteriskNote",
+  stage: "source",
+  run(lines, at) {
+    if (at.volume !== 1 || at.pdfIndex !== 44) return lines;
+    return lines.map((line) =>
+      line.replace(/(Beverly Allitt\u2019\.)\*(?= )/, "$1[^1]").replace(/^\*(\s+Beverly Allitt was a nurse)/, "1$1")
+    );
+  },
+};
+
+/**
+ * The inset quotations (the tag tree's 15 Display_Quote blocks: 4 in Chapter 2, 11 in Chapter 3, among them the
+ * Thematic Review's text over PDF pp.35-36) are set in italic and inset only about 1.4 em from the body's left edge
+ * (1.0 em for a first line opening on a hanging quotation mark, PDF p.20), against a 3.8 em hanging number for the
+ * numbered paragraphs. In the text layer that is two or three columns, short of the five the block parser's
+ * sustained-indent rule reads as a quotation, so each was served as an unnumbered paragraph (reportsthatmatter-vsd2).
+ * Lowering the inset for the whole report (`quoteInset(3)`) is not enough and breaks other things: the lettered items
+ * of 3.114 (PDF p.52) hang at the same inset in roman type and were quoted, and a first line one column short stayed
+ * out. So the layout decides: a body-size italic line set between 0.8 and 3 em in from the page's body margin is
+ * pushed four columns further in, which the parser then reads as a quotation. Italic words inside a numbered
+ * paragraph sit at the margin (0 em) and are untouched; nothing else on the page moves.
+ */
+const italicInsetQuotes: BodyPass = {
+  name: "italicInsetQuotes",
+  stage: "body",
+  run(lines, context, at) {
+    const layout = context?.layout;
+    if (!layout || !at) return lines;
+    const squash = (text: string) => text.replace(/\s+/g, "");
+    const inset = layout
+      .lines(at.volume, at.pdfIndex)
+      .filter((line) => line.italic && Math.abs(line.size - layout.bodyFont.size) < 1 && line.indentEm >= 0.8 && line.indentEm <= 3)
+      .map((line) => squash(line.text))
+      .filter((text) => text.length > 0);
+    if (!inset.length) return lines;
+    let from = 0;
+    const out = [...lines];
+    for (const want of inset) {
+      for (let i = from; i < out.length; i++) {
+        if (squash(out[i]) !== want) continue;
+        out[i] = `    ${out[i]}`;
+        from = i + 1;
+        break;
+      }
+    }
+    return out;
+  },
+};
 
 /**
  * How this report is built. Owned by the report: every decision that shaped its text is named here.
@@ -31,6 +91,7 @@ export default pipeline({
     { path: "archive/thirlwall-inquiry-summary-report-hc601.pdf", sha256: "a1e1a50e403a18d823c0c5ade1667d5dc1d6f95996032a3e1a96806a429c2db2" },
   ],
   passes: [
+    asteriskNote,
     // A paragraph run over a page break joins when the layout says it runs on: 3.67 begins on PDF p.44 and
     // pages open mid-paragraph at the hanging indent ("of a referral to the police.", p.44; "police would not
     // investigate.", p.66).
@@ -49,8 +110,11 @@ export default pipeline({
     geometry("per-page"),
     // The contents are folioed iii (PDF p.4); the Introduction opens at 1 (PDF p.6).
     romanFolios(),
-    // Only one footnote, an asterisk note (PDF p.44), which these numbered-note passes do not read: raised
-    // digits after a word (none here) are linked, and nothing is, so the asterisk stays a paragraph (b1za).
+    // Only one footnote, an asterisk note (PDF p.44), which asteriskNote (above, a source pass) reads as note 1. The
+    // page's note block is found by its opening "1" and a gap (sequencedNoteOpenings: the bare reading wants a
+    // narrower gap), and the marker is set by asteriskNote, so the layout pass links nothing else: there are no
+    // raised digits in this report (b1za).
+    sequencedNoteOpenings(),
     layoutMarkers(),
     // "3.67" paragraphs, the number at the margin and the text hanging one tab in (p.44).
     numberedParagraphs(),
@@ -59,11 +123,17 @@ export default pipeline({
     // in sequence.
     numberedOpenings(),
     hangingIndents(),
+    // The inset italic quotations, read from the layout (above; vsd2).
+    italicInsetQuotes,
+    // A numbered line is not a heading here: the chapter banners are read by their face below, and "4. Part Two"
+    // (the banner at PDF p.68 and its contents entry at p.4) had been read as a heading "Part Two" by its number,
+    // one level under the other chapters, with a stray heading in the contents (hy63).
+    numberedHeadings(false),
     // Headings are set only by face. The chapter titles are Merriweather Black 25pt, white on a navy banner
     // (PDF p.6, "1. Introduction"); the sub-headings are Source Sans 3 Medium 16pt navy (#142f54), one face for
     // both of the tag tree's levels (50 H3, 15 H4), so they serve at one level (e9im). Layout keys read 1.5
     // times the point size. Does not read "Context"/"The Countess" stacked (p.7) as two headings (e9im) or the
-    // bare year "2018" (p.66); the chapter 4 banner "4. Part Two" (p.68) does not take its face's level (hy63).
+    // bare year "2018" (p.66).
     // The sub-heading face is declared one level deeper than printed (h4, the empty middle level) so that the site's
     // sections follow the four chapters: at h3, each bodyless chapter banner and its short opening subsections folded
     // backward into the section before (Chapter 3's opening sat under "Baby P"), giving 32 misnamed sections
