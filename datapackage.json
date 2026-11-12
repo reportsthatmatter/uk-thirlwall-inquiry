@@ -27,6 +27,64 @@
           "web": "https://web.archive.org/web/2026*/https://thirlwall.public-inquiry.uk/wp-content/uploads/2026/09/Thirlwall-Inquiry_Summary-Report_Accessible.pdf"
         }
       ]
+    },
+    {
+      "title": "Report of the Public Inquiry into events at the Countess of Chester Hospital, 2015 to 2018: Volume I (accessible edition), HC 597-I, ordered by the House of Commons to be printed 15 September 2026",
+      "path": "archive/thirlwall-inquiry-volume-1-hc597-i.pdf",
+      "format": "pdf",
+      "mediatype": "application/pdf",
+      "bytes": 2152357,
+      "hash": "sha256:3a8d0a694c88571759217943062e6ded6eb5289f631c74fe0a5304c6be57584b",
+      "sources": [
+        {
+          "title": "Thirlwall Inquiry: the report",
+          "web": "https://thirlwall.public-inquiry.uk/wp-content/uploads/2026/09/Thirlwall-Inquiry_Vol1_Accessible.pdf"
+        },
+        {
+          "title": "Landing page: the Inquiry's report page",
+          "web": "https://thirlwall.public-inquiry.uk/the-report/"
+        }
+      ]
+    },
+    {
+      "title": "Report of the Public Inquiry into events at the Countess of Chester Hospital, 2015 to 2018: Volume II (accessible edition), HC 597-II, ordered by the House of Commons to be printed 15 September 2026",
+      "path": "archive/thirlwall-inquiry-volume-2-hc597-ii.pdf",
+      "format": "pdf",
+      "mediatype": "application/pdf",
+      "bytes": 2650294,
+      "hash": "sha256:7a8199e1d062e8933aecb885a4b3c24297346b6b652c0d84f5102080fd566934",
+      "sources": [
+        {
+          "title": "Thirlwall Inquiry: the report",
+          "web": "https://thirlwall.public-inquiry.uk/wp-content/uploads/2026/09/Thirlwall-Inquiry_Vol2_Accessible.pdf"
+        },
+        {
+          "title": "Landing page: the Inquiry's report page",
+          "web": "https://thirlwall.public-inquiry.uk/the-report/"
+        }
+      ]
+    },
+    {
+      "title": "Report of the Public Inquiry into events at the Countess of Chester Hospital, 2015 to 2018: Volume III, HC 597-III, ordered by the House of Commons to be printed 15 September 2026; the edition of 19 October 2026 with its correction slip (Appendix 8)",
+      "path": "archive/thirlwall-inquiry-volume-3-hc597-iii.pdf",
+      "format": "pdf",
+      "mediatype": "application/pdf",
+      "bytes": 2898020,
+      "hash": "sha256:7474e14f613a443117eebfe9c4e8924313c8e4d7f5c563f3a0567140567b0e8b",
+      "sources": [
+        {
+          "title": "Thirlwall Inquiry: the report",
+          "web": "https://thirlwall.public-inquiry.uk/wp-content/uploads/2026/10/Thirlwall-Inquiry_Vol3.pdf"
+        },
+        {
+          "title": "Superseded: the September 2026 accessible PDF (215 pages, SHA-256 9b8772e75bf2b38845871f78272549bdb8422f8cbbc2a07a094c31db3f87cbf4; the same text without the correction slip), no longer linked from the report page",
+          "web": "https://thirlwall.public-inquiry.uk/wp-content/uploads/2026/09/Thirlwall-Inquiry_Vol3_Accessible.pdf"
+        },
+        {
+          "title": "Landing page: the Inquiry's report page",
+          "web": "https://thirlwall.public-inquiry.uk/the-report/"
+        }
+      ]
     }
   ],
   "licenses": [

@@ -97,16 +97,18 @@ const italicInsetQuotes: BodyPass = {
 /**
  * How this report is built. Owned by the report: every decision that shaped its text is named here.
  *
- * The source is the Inquiry's born-digital, tagged InDesign PDF of the Summary report (76 A4 pages,
- * single column). Printed page = PDF page - 5 (the contents are iii at PDF p.4). Its structure tree is
- * not read: the PDF pipeline reads the layout, and the tags are the answer key (472 P, 50 H3, 15 H4).
+ * The sources are the Inquiry's born-digital, tagged InDesign PDFs: the Summary report (76 A4 pages, single
+ * column; printed page = PDF page - 5, the contents are iii at PDF p.4), then Volumes I, II and III (248, 309 and
+ * 217 pages, the same design). The volumes follow the Summary so that its paragraph ids, published first, do not
+ * move. The structure trees are not read: the PDF pipeline reads the layout, and the tags are the answer key
+ * (Summary 472 P, 50 H3, 15 H4; the volumes' sub-headings are tagged H4 and H5 in one face).
  */
 export default pipeline({
   id: "uk-thirlwall-inquiry",
-  title: "Report of the Public Inquiry into events at the Countess of Chester Hospital, 2015 to 2018: Summary report",
+  title: "Report of the Public Inquiry into events at the Countess of Chester Hospital, 2015 to 2018",
   authors: "The Rt Hon. Lady Justice Thirlwall DBE (Chair)",
   published_at: "15 September 2026",
-  source_url: "https://thirlwall.public-inquiry.uk/wp-content/uploads/2026/09/Thirlwall-Inquiry_Summary-Report_Accessible.pdf",
+  source_url: "https://thirlwall.public-inquiry.uk/the-report/",
   repo: ".",
   volumes: [
     // HC 601, the Summary report: Chapters 1-4 (Introduction; The babies; Concerns, reviews, errors; Part Two).
@@ -133,7 +135,10 @@ export default pipeline({
     // the Public Inquiry into events ... Summary report", PDF p.7), the chapter title on odd ones
     // ("3. Concerns, reviews, errors", p.44; "4. Part Two", p.70). Without this each page's head was read as a
     // paragraph. Dropped by face at the page edge, and nothing else.
-    furnitureFaces(["SourceSans3-SemiBold|15|#00608b|b"]),
+    // A few pages of Volumes II and III set the same running head in a slightly different blue (#00668d: "Chapter 16.
+    // Meetings on 13 and 14 July 2016", Vol II PDF p.48, 20 pages in all), and their sub-headings in a darker navy
+    // (#133459, below).
+    furnitureFaces(["SourceSans3-SemiBold|15|#00608b|b", "SourceSans3-SemiBold|15|#00668d|b"]),
     // The body's left edge is read per page: a page that opens mid-paragraph has no number in the margin
     // (PDF p.44, p.66, p.71).
     geometry("per-page"),
@@ -193,7 +198,7 @@ export default pipeline({
         // PDF p.8; "Part One continued", Vol II; "Part Two" and "Part Three", Vol III)
         ["Merriweather-Black|38|#ffffff|b", "Merriweather-Black|54|#ffffff|b"],
         [],
-        ["SourceSans3-Medium|24|#142f54"],
+        ["SourceSans3-Medium|24|#142f54", "SourceSans3-Medium|24|#133459"],
       ],
     }),
   ],

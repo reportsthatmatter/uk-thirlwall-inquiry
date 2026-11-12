@@ -1,8 +1,8 @@
 ---
-title: "Report of the Public Inquiry into events at the Countess of Chester Hospital, 2015 to 2018: Summary report"
+title: "Report of the Public Inquiry into events at the Countess of Chester Hospital, 2015 to 2018"
 authors: "The Rt Hon. Lady Justice Thirlwall DBE (Chair)"
 published_at: "15 September 2026"
-source_url: "https://thirlwall.public-inquiry.uk/wp-content/uploads/2026/09/Thirlwall-Inquiry_Summary-Report_Accessible.pdf"
+source_url: "https://thirlwall.public-inquiry.uk/the-report/"
 pages: 845
 footnotes: 3843
 corrections: 1
@@ -5118,7 +5118,7 @@ In evidence Ms Millward said that the avoidable death of a child would be graded
 
 ## Chapter 16. Meetings on 13 and 14 July 2016
 
-Executives' meeting with paediatricians, 13 July 2016
+#### Executives' meeting with paediatricians, 13 July 2016
 
 16.1 On 13 July 2016, there was a meeting between Mr Chambers, Mr Harvey, Ms Sian Williams, Mr Cross, Ms Hodkinson, Dr Saladi, Dr Jayaram, Dr Gibbs and Dr ZA.[^1-16] At this meeting, the executives persuaded the consultants not to go to the police, but to agree instead to further internal investigation; to the RCPCH review; and to Letby being allowed to remain on the neonatal unit under supervision. At the same time, the possibility of CCTV was being investigated.
 
@@ -5130,25 +5130,19 @@ Executives' meeting with paediatricians, 13 July 2016
 
 %%page 36#3%%
 
-Report of the Public Inquiry into events at the Countess of Chester Hospital, 2015 to 2018 – Volume II
-
-Executives' meeting, 14 July 2016
+#### Executives' meeting, 14 July 2016
 
 16.5 On 14 July 2016, the Executive Team met.[^8-16] Mr Chambers, Ms O'Neill, Ms Hodkinson, Ms Burnett, Ms Kelly, Mr Ian Bett (Programme Director, Model Hospital), Mr Holden and Mr Cross were all there. Mr Chambers and Ms Hodkinson provided an update on the position regarding the neonatal unit and Letby. This included that they would not be going to the police at present, but there would be enhanced security (which included CCTV), supervision of the nurse, and continuous review of the neonatal unit, with weekly dashboards which highlighted any concerns or incidents to the Executive Team, including monitoring of transfers.
 
 16.6 Ms Hodkinson reported on the need for complete supervision of Letby. Ms Burnett noted that relationships had broken down between nurses and doctors, adopting the narrative from Ms Rees and Ms Powell. That the nurse managers did not agree with the doctors was clear. As for the nurses on the neonatal unit, Dr Gibbs said some of them were upset, but they remained courteous and professional with the consultants at all times.[^9-16] Ms Powell said that the nurses did not know about the allegations.[^10-16] This is highly unlikely. Even if Ms Powell had not told them, and I infer that she had not, they all knew about the increase in mortality, and many were discussing the reasons for it. I bear in mind the evidence of Dr Lambie about the nurses gathered round the computer (see Chapter 5). This was the sort of information that would be the subject of gossip and speculation. That the nurses were upset is not in dispute. They must have had some idea of what was going on.
 
-Meeting with Letby, 14 July 2016
+#### Meeting with Letby, 14 July 2016
 
 16.7 Ms Hodkinson, Ms Sian Williams and Ms Powell met on 14 July 2016 and agreed that Letby was to be supervised at all times and not allowed to care for a baby unsupervised until 31 August 2016. They also discussed a proposal to install cameras in the neonatal unit.[^11-16]
 
-16.8 Later that day, Ms Sian Williams and Ms Powell met Letby. After the meeting with Letby, Ms Sian Williams sent a letter to Letby, drafted by Ms Hodkinson, confirming what had been said in the meeting.[^12-16] Letby was already aware of the increase in mortality rates, as she confirmed, and the fact that some of the cot spaces had been closed. Ms Sian Williams and Ms Powell said that the collapse and deterioration of babies had not been explained, and this was a serious concern. Letby was told that a review had revealed "that a small number of staff were regularly involved in the care of the babies concerned.
+16.8 Later that day, Ms Sian Williams and Ms Powell met Letby. After the meeting with Letby, Ms Sian Williams sent a letter to Letby, drafted by Ms Hodkinson, confirming what had been said in the meeting.[^12-16] Letby was already aware of the increase in mortality rates, as she confirmed, and the fact that some of the cot spaces had been closed. Ms Sian Williams and Ms Powell said that the collapse and deterioration of babies had not been explained, and this was a serious concern. Letby was told that a review had revealed "that a small number of staff were regularly involved in the care of the babies concerned. Their involvement was either on the shift, or the shift before, a baby had unexpectedly collapsed or deteriorated … the review has identified you as being more regularly involved in the care of babies concerned."[^13-16]
 
 %%page 37#3%%
-
-Chapter 16. Meetings on 13 and 14 July 2016
-
-Their involvement was either on the shift, or the shift before, a baby had unexpectedly collapsed or deteriorated … the review has identified you as being more regularly involved in the care of babies concerned."[^13-16]
 
 16.9 Ms Sian Williams and Ms Powell explained that:
 
@@ -5162,7 +5156,7 @@ Letby was informed that she would be the first nurse to undergo this process "du
 
 16.11 "During the meeting," the letter read, "we discussed an alternative to clinical supervision, being the option to take a short break from the NNU [neonatal unit]. However, you confirmed that you would prefer to continue supervised practice."[^18-16] The letter also set out arrangements for support by Occupational Health. Ms Sian Williams said in evidence that it was the executives' decision not to set out the nature of the allegations against Letby; she did not think that the letter was transparent.[^19-16] When asked why the executives took this approach to the letter, she replied: "[T]he Executives were still of the belief it wasn't a single person."[^20-16]
 
-Extraordinary Board meeting, 14 July 2016
+#### Extraordinary Board meeting, 14 July 2016
 
 16.12 An Extraordinary Board meeting took place to consider the neonatal unit on 14 July 2016.[^21-16] It was chaired by Sir Duncan Nichol. Also present were Mr Wilkie, Ms Hopwood, Ms Fallon, Mr Chambers, Mr Harvey, Mr Holden, Ms Kelly, Mr Cross, Ms Burnett, Dr Brearey and Dr Jayaram.
 
@@ -5170,7 +5164,7 @@ Extraordinary Board meeting, 14 July 2016
 
 %%page 38#3%%
 
-Report of the Public Inquiry into events at the Countess of Chester Hospital, 2015 to 2018 – Volume II a. inform the Board that the Trust had decided to downgrade the neonatal unit b. persuade the Board that the increase in mortality was not due to the criminal activity of Letby, but to multifactorial issues, such as increased acuity, increased activity, staffing, taking in babies who were Level 3, gestation, and lower weight, etc c. get the agreement of the Board for further internal investigation and an external review of the neonatal unit by the RCPCH d. persuade the Board not to call the police at this point e. get the agreement of the Board to allow Letby to remain on clinical day duties under supervision.
+a. inform the Board that the Trust had decided to downgrade the neonatal unit b. persuade the Board that the increase in mortality was not due to the criminal activity of Letby, but to multifactorial issues, such as increased acuity, increased activity, staffing, taking in babies who were Level 3, gestation, and lower weight, etc c. get the agreement of the Board for further internal investigation and an external review of the neonatal unit by the RCPCH d. persuade the Board not to call the police at this point e. get the agreement of the Board to allow Letby to remain on clinical day duties under supervision.
 
 16.14 Prior to this, on 5 July 2016,[^23-16] Sir Duncan had informed the Non-Executive Directors that an Extraordinary Board meeting was being called, to discuss the proposal for an external review by the RCPCH into unexpected and unexplained deaths in the neonatal unit, the imminent downgrading of the neonatal unit to Level 1, which would mean reducing intensive care cots and not admitting babies of less than 32 weeks' gestation, an internal review, and difficult messages arising from this.
 
@@ -5184,8 +5178,6 @@ Report of the Public Inquiry into events at the Countess of Chester Hospital, 20
 
 %%page 39#3%%
 
-Chapter 16. Meetings on 13 and 14 July 2016
-
 16.18 Mr Chambers informed the Board of the decision to change the admission criteria for the neonatal unit. He told them about the internal review which the Trust was conducting (see Chapter 14), and the proposal for an external review (RCPCH).[^28-16]
 
 16.19 Mr Harvey told the Board that further work would be done on the internal review and a detailed report produced; that care was needed when discussing the numbers; that the number of deaths was small and not significant in neonatal mortality figures, but that higher than expected mortality rates had been found; and that some of the deaths were unexpected. He said that it was important to understand how busy the neonatal unit was, and how it compared on a local and national level. He referred to "an apparent step change" in the number of deaths in 2015 to 2016.[^29-16] In fact, it was not an 'apparent' step change, it was real. The question was why it had occurred.
@@ -5196,11 +5188,9 @@ Chapter 16. Meetings on 13 and 14 July 2016
 
 16.22 Dr Jayaram made it plain that the consultants' concerns were not only the number of deaths, but that the babies who died were not expected to die. They were premature but stable, with no reason for their collapse followed by a failure to respond to resuscitation. These factors, plus the numbers, were what concerned them.[^34-16] He did not include poorly babies with abnormalities, who were expected to die, within the group referred to. He and Dr Brearey made it clear that the data provided to the Board had had no input from neonatal clinicians or the Neonatal Network, and had only been presented to them the previous day. Whilst they recognised there were strains in the system, they believed the Countess was no worse than other comparable areas, and better than some. Nor did they believe that changes in acuity and staffing could account for the deaths, or that these factors had a direct effect on each baby.[^35-16]
 
-16.23 At this point, Dr Jayaram asked for his next remarks not to be minuted.[^36-16] There was no objection taken to that, and he told the Board about his suspicions. In evidence, he stated this was a reference to the explicit concerns that he raised about Letby. He explained: "I had increasing discomfort here … there seemed to be a pattern emerging that they didn't want to listen and I was already becoming concerned that this, if minuted, could potentially come back and … and be used against me."[^37-16] His reluctance to have
+16.23 At this point, Dr Jayaram asked for his next remarks not to be minuted.[^36-16] There was no objection taken to that, and he told the Board about his suspicions. In evidence, he stated this was a reference to the explicit concerns that he raised about Letby. He explained: "I had increasing discomfort here … there seemed to be a pattern emerging that they didn't want to listen and I was already becoming concerned that this, if minuted, could potentially come back and … and be used against me."[^37-16] His reluctance to have something so important minuted should have been discussed with him. He should have been reassured about the consequences, by the Chief Executive, the Medical Director and/or the Chair. In due course, his anxieties proved to be well founded.
 
 %%page 40#3%%
-
-Report of the Public Inquiry into events at the Countess of Chester Hospital, 2015 to 2018 – Volume II something so important minuted should have been discussed with him. He should have been reassured about the consequences, by the Chief Executive, the Medical Director and/or the Chair. In due course, his anxieties proved to be well founded.
 
 16.24 Mr Chambers repeated the point about pressures on staffing and asked the Board whether it considered the Trust was taking this seriously: "The Board agreed that the Trust was taking these issues seriously and agreed that the proposed actions were proportionate." He added that the Trust would continue their investigations while an external review was being conducted, which would look at the competence of all staff. Again, no consideration was given to safeguarding. He also promised increased security arrangements, including CCTV. Dr Brearey intervened to say that he did not consider competence to be the issue, as the medical observations of the babies had not indicated that earlier intervention was needed. He explained about the deaths occurring on night shifts, so they should look at events in the 12 hours prior to that.[^38-16]
 
@@ -5215,8 +5205,6 @@ Report of the Public Inquiry into events at the Countess of Chester Hospital, 20
 16.29 Mr Chambers added the external review (RCPCH) was necessary, and would look at data, people, context and environment. He went on to say that, as the Trust could not determine that harm was happening through lack of competence, it thought that the proposed approach of supervision, ongoing review of data and an external review was proportionate.[^48-16] The question arises: proportionate to what? Without removing the nurse, the risk was of death or serious injury to a baby. Supervision, ongoing review of data and external review were not proportionate to that risk.
 
 %%page 41#3%%
-
-Chapter 16. Meetings on 13 and 14 July 2016
 
 16.30 Mr Wilkie said he did not know how effective the measures would be, and asked how confident the Trust was that "we are removing all risk".[^49-16] In short, he wanted to know why they should not call the police now. Mr Chambers answered that there would be weekly monitoring of the neonatal unit. Ms Hopwood questioned the feasibility of supervising a nurse at all times, and both Ms Hopwood and Mr Wilkie remained somewhat unconvinced that the measures proposed would be effective and remove all risk.[^50-16]
 
@@ -5234,8 +5222,6 @@ Chapter 16. Meetings on 13 and 14 July 2016
 
 %%page 42#3%%
 
-Report of the Public Inquiry into events at the Countess of Chester Hospital, 2015 to 2018 – Volume II
-
 16.36 Mr Harvey told the Board that he had approached the RCPCH to conduct the review, and they had agreed to do so quickly. Dr Jayaram made the point that the Terms of Reference would need to be very clear.[^59-16] Mr Harvey did not mention that he had received the Terms of Reference and had suggested amendments. Mr Chambers informed the Board that further work would be done on the internal data and that there would be weekly monitoring of the neonatal unit.
 
 16.37 Ms Fallon asked whether, if there was a direct correlation, the review would uncover it. Mr Harvey did not reply directly, saying that any issues would "be outed", and the reviewers would be told about the supervision of Letby as part of the measures the hospital had taken.[^60-16] Sir Duncan asked whether the review team would be briefed on the explicit concerns. Mr Harvey confirmed that they would be. He said he would discuss the concerns during his interview with them.[^61-16]
@@ -5248,13 +5234,7 @@ Report of the Public Inquiry into events at the Countess of Chester Hospital, 20
 
 %%page 43#3%%
 
-Chapter 16. Meetings on 13 and 14 July 2016
-
-Endnotes
-
-%%page 44#3%%
-
-Report of the Public Inquiry into events at the Countess of Chester Hospital, 2015 to 2018 – Volume II
+#### Endnotes
 
 %%page 45#3%%
 
@@ -9552,7 +9532,7 @@ a. Working together for patients b. Respect and dignity c. Commitment to quality
 
 36.10 The short statement of vision and values reads: "Our mission is to deliver top-quality patient care, excellent education and world-class research."[^7-35] The values are: safety, kindness, teamwork and improving. All four values are listed in the NHS Constitution.
 
-%%page 44#4%%
+%%page 44#3%%
 
 #### The Newcastle Upon Tyne Hospitals
 
@@ -10247,7 +10227,7 @@ Mr Baker KC described this as frank tribalism.[^26-38] It was clear evidence of 
 
 ## Chapter 40. Freedom to Speak Up Guardians
 
-Background
+#### Background
 
 40.1 Sir Robert Francis explained in evidence that the reason for the 2015 Freedom to Speak Up Review, which he chaired, was:
 
@@ -10257,15 +10237,13 @@ He considered that "the remedies available by way of employment law didn't seem 
 
 40.2 The National Guardian's Office (NGO) came into being in 2016; it was a small organisation, with limited resources (16 staff) and limited powers. In a helpful written statement, Mr Charlie Cassell, Director of Operations and Strategy for the NGO, pointed out that it had neither the power nor resources to hold hospitals or other healthcare settings to account in respect of the raising of concerns/FTSU. He explained the ways in which the NGO might be expanded to good effect.[^4-39]
 
-The FTSU Guardian role and its challenges
+#### The FTSU Guardian role and its challenges
 
 40.3 In her written statement, Dr Jayne Chidgey-Clark, National Guardian for the NHS (September 2021 to December 2021), summarised the FTSU Guardian role thus:
 
 > "Freedom to Speak Up guardians work alongside trust leadership teams to ensure all staff have the capability to speak up effectively and are supported appropriately. They work to ensure that speaking up processes are effective, continuously improved and that safety and quality are assured as a result. They also engage their Boards in all freedom to speak up matters and issues that are raised so that a culture of speaking up, listening up and following up, is instilled throughout the organisation and the NHS."
 
 %%page 97#2%%
-
-Chapter 40. Freedom to Speak Up Guardians
 
 40.4 According to the most recent annual data report from the NGO – published in May 2026 and reporting on the period 1 April 2025 to 31 March 2026 – the number of FTSU Guardians serving in various organisations had risen to 1,519.[^5-39]
 
@@ -10276,8 +10254,6 @@ Chapter 40. Freedom to Speak Up Guardians
 40.7 Professor Dixon-Woods said in evidence that there was significant variability in how well Trusts operated their FTSU Guardian system. She explained that in an organisation lacking the right culture at senior level, the introduction of a FTSU Guardian is treated as a box-ticking exercise, the thinking being: "We need to ensure we've got one, we need to send in a report every year."[^12-39] In other hospitals with a "highly open, learning committed culture, they would have put a lot of effort into finding the right person, briefing them and … providing them with the resources that they need and encouraging staff to come forward rather than treating it as literally yet another duty".[^13-39] Evidence from Ms Donnelly[^14-39] and Mr Lythgoe confirmed the reality on the ground. Mr Lythgoe said that the Hospital Consultants and Specialists Association's advice to a doctor with a concern would depend on which hospital they worked for.[^15-39] The move towards less national oversight, with the abolition of the NGO, is worrying in this context (see below).
 
 %%page 98#3%%
-
-Report of the Public Inquiry into events at the Countess of Chester Hospital, 2015 to 2018 – Volume III
 
 40.8 Professor Bowers KC had a similar impression:
 
@@ -10293,8 +10269,6 @@ Report of the Public Inquiry into events at the Countess of Chester Hospital, 20
 
 %%page 99#3%%
 
-Chapter 40. Freedom to Speak Up Guardians
-
 40.13 Ms Donnelly's view was that a wish to protect the reputation of the organisation often led to concerns not being addressed. She was critical of the lack of transparency around the outcomes of investigations – for example, that even where a finding of bullying was made, this was often not disclosed. Similarly, where an allegation of bullying was dismissed, this outcome was often not shared.[^26-39]
 
 40.14 Ms Raphael gave powerful evidence of active victimisation of whistleblowers by the malicious overuse of the Datix system.[^27-39]
@@ -10307,11 +10281,9 @@ Chapter 40. Freedom to Speak Up Guardians
 
 40.18 A key change is training. Refresher training will no longer be mandatory, and the future of board-level training is unclear. The NGO previously monitored compliance with training; this will now be done locally. In 2025/26, the NGO "stepped down 304 guardians who informed us they are no longer in the guardian role or who were non- compliant with training requirements".[^32-39] Without an organisation to oversee national compliance, upholding standards may not happen. It could add to local variation, which I discuss below.[^33-39]
 
-40.19 Guardian networks and Guardian mentors have been a feature of the FTSU system. Ms Donnelly told the Inquiry: "[T]he national and regional Freedom to Speak Up Guardian networks provide a safe space for Guardians to gain peer support and advice, to learn and share best practice."[^34-39] The NGO said these networks are "a cornerstone of professional connection, offering trusted and confidential spaces for guardians to share experiences, seek advice, and navigate complex or sensitive cases. They play a critical role in
+40.19 Guardian networks and Guardian mentors have been a feature of the FTSU system. Ms Donnelly told the Inquiry: "[T]he national and regional Freedom to Speak Up Guardian networks provide a safe space for Guardians to gain peer support and advice, to learn and share best practice."[^34-39] The NGO said these networks are "a cornerstone of professional connection, offering trusted and confidential spaces for guardians to share experiences, seek advice, and navigate complex or sensitive cases. They play a critical role in upholding guardian well-being, reducing isolation, and promoting reassurance, reflective practice and mutual learning."[^35-39] The NGO helped to coordinate these networks and the mentoring scheme.
 
 %%page 100#3%%
-
-Report of the Public Inquiry into events at the Countess of Chester Hospital, 2015 to 2018 – Volume III upholding guardian well-being, reducing isolation, and promoting reassurance, reflective practice and mutual learning."[^35-39] The NGO helped to coordinate these networks and the mentoring scheme.
 
 40.20 Mentors were introduced in the summer of 2022. They are "experienced guardians who help newly appointed Freedom to Speak Up guardians reflect on their experience, helping them to identify any learning and support needs through discussion and guidance as they progress in their role".[^36-39] Quarterly mentor meetings were facilitated by the NGO. NHS England's FTSU team and regional teams are now to take over network support. Any loss of national support needs is not acceptable. NHS England's position is that "[n]ew guardians will be able to access mentors through the NHS England training platform".[^37-39] These new arrangements do not provide reassurance that Guardians will be adequately trained and supported.
 
@@ -10319,17 +10291,15 @@ Report of the Public Inquiry into events at the Countess of Chester Hospital, 20
 
 40.22 As recommended in the Dash Review, under the new arrangements: "The CQC will now verify guardian arrangements in NHS trusts through their Well-led inspections."[^38-39] However, the plans for this are still to be confirmed, with NHS England stating it will "continue to liaise with the CQC on how compliance will be assessed within the Well-led inspection regime".[^39-39] That this is not already determined is concerning. See below.
 
-Investigations
+#### Investigations
 
 40.23 Ms Donnelly informed the Inquiry that HR departments, which should investigate concerns raised with, and then by, FTSU Guardians, frequently make poor decisions, such as appointing investigators who are "known to be good friends with the person they are investigating or have worked very closely with them".[^40-39] What happened at the Countess was an example of an analogous situation, where neither investigator nor chair of the panel should have been appointed to deal with Letby's grievance. Ms Donnelly also pointed out the problem of busy managers being tasked with undertaking complex investigations when they lacked the training to do so. This leads to poor-quality investigations and detriment of the core role of the FTSU Guardian. Ms Donnelly suggested creating a central pool of investigators to deal with anything above low‑level matters.[^41-39] This echoed the evidence and views of Dr Benneyworth (see Chapter 43).
 
-Scotland
+#### Scotland
 
 40.24 Scotland has a different system for whistleblowing. There is a central body – the Independent National Whistleblowing Officer (INWO) – which has the power to investigate whistleblowing concerns in healthcare. Ms Rosemary Agnew is the current Scottish Public Services Ombudsman, which office, since 2021, includes the INWO. The INWO sets standards that NHS Scotland healthcare providers are expected to follow in handling whistleblowing concerns.[^42-39]
 
 %%page 101#3%%
-
-Chapter 40. Freedom to Speak Up Guardians
 
 40.25 Importantly, the INWO has the following power:
 
@@ -10347,7 +10317,7 @@ In other words, the role of the INWO is not just about process; it can also be a
 
 40.27 The INWO has a statutory power to disclose information to appropriate bodies, including to the police and regulators, if there is a threat to the health or safety of a person or persons.[^45-39]
 
-Effectiveness of the INWO
+#### Effectiveness of the INWO
 
 40.28 Ms Donnelly said that she had spoken to individuals who had worked within the INWO system and escalated concerns to it, and that, while this system was not perfect, it had "real bonuses to it".[^46-39] Mr Lythgoe's experience was that it had led to an improvement of the situation in Scotland.[^47-39] Ms Raphael said that Protect was involved in drafting the INWO's standards, and her view was that the INWO was a good system because (a) it had the power to tell hospital boards to investigate concerns, and (b) its standards, in terms of expectations about how concerns should be addressed, were more specific than the standards that applied in England.[^48-39]
 
@@ -10355,15 +10325,13 @@ Effectiveness of the INWO
 
 %%page 102#3%%
 
-Report of the Public Inquiry into events at the Countess of Chester Hospital, 2015 to 2018 – Volume III
-
-Externally employed FTSU Guardians?
+#### Externally employed FTSU Guardians?
 
 40.30 Mr Cassell's view echoed that of Sir Robert Francis: "Guardians who work within the organisation they support are close to where care is delivered and the people who deliver it. They understand local culture and can build trust. However, managing confidentiality and real or perceived conflicts of interest can be challenging."[^52-39]
 
 40.31 I accept the argument against making Guardians external to Trusts. When part of the hospital or other healthcare setting, Guardians are easier to contact, know the local conditions, and are able easily to contact those who need to be aware of the concerns. Hospitals and other settings ought to be encouraging of, and responsible for, the effectiveness of FTSU Guardians. Outsourcing effectiveness and responsibility for such an important function would be unwise.
 
-An INWO for England?
+#### An INWO for England?
 
 40.32 Sir Rob Behrens, who was the Parliamentary and Health Service Ombudsman between April 2017 and March 2024, persuasively argued for the inclusion of an equivalent to the INWO within England's Ombudsman:
 
@@ -10377,13 +10345,11 @@ An INWO for England?
 
 %%page 103#3%%
 
-Chapter 40. Freedom to Speak Up Guardians
-
 40.35 Acknowledging that the NGO has been abolished I recommend that its functions to support FTSU Guardians should be taken over by the Parliamentary and Health Service Ombudsman in England. The Ombudsman's powers must be increased to include (a) investigating complaints that whistleblowing in the NHS has not been dealt with adequately, and (b) assisting whistleblowers by referring their concerns to the relevant NHS bodies and overseeing the response.
 
 40.36 This will increase the degree of independent oversight over the handling of whistleblowing in the NHS, whilst simplifying (or, at least, not further complicating), the regulatory matrix in the health service.
 
-The Dash Review
+#### The Dash Review
 
 40.37 As set out above, Dr Dash, in her review, in recommending the abolition of the NGO pointed out that its role is partly to build a network of FTSU Guardians and partly to provide a national voice and leadership. The first part had broadly been achieved (see above). It is not clear where the national voice and leadership is to come from. Dr Dash says that "clear routes for staff to escalate concerns have been set out by government" and so it "is not clear that there is a need for an independent oversight body".[^56-39] What seems to have been overlooked is that whatever issues are raised by the FTSU Guardian there is no requirement on hospitals to act upon concerns. Some do take action, and do so effectively. Many of them do not. I have dealt with this issue in Chapter 38.
 
@@ -10397,9 +10363,7 @@ The Dash Review
 
 %%page 104#3%%
 
-Report of the Public Inquiry into events at the Countess of Chester Hospital, 2015 to 2018 – Volume III
-
-Conclusions
+#### Conclusions
 
 40.42 Like Sir Robert Francis and several other witnesses at the Inquiry (Ms Donnelly, Sir Rob Behrens, Mr Cassell), and notwithstanding the abolition of the NGO, I am quite sure that an external structure with national reach is still necessary. The Parliamentary and Health Service Ombudsman is ideally placed to carry out this work. It would require appropriate funding. Another, probably more expensive, approach would be to set up a structure along the lines of the successful Scottish INWO model.
 
@@ -10407,17 +10371,7 @@ Conclusions
 
 %%page 105#3%%
 
-Chapter 40. Freedom to Speak Up Guardians
-
-Endnotes
-
-%%page 106#3%%
-
-Report of the Public Inquiry into events at the Countess of Chester Hospital, 2015 to 2018 – Volume III
-
-%%page 107#3%%
-
-Chapter 40. Freedom to Speak Up Guardians
+#### Endnotes
 
 %%page 108#3%%
 

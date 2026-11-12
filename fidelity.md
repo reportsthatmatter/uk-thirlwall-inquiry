@@ -1,4 +1,4 @@
-# Fidelity review — Report of the Public Inquiry into events at the Countess of Chester Hospital, 2015 to 2018: Summary report
+# Fidelity review — Report of the Public Inquiry into events at the Countess of Chester Hospital, 2015 to 2018
 
 Pages: 845  ·  Footnotes: 3843  ·  Auto-fixes applied: 129  ·  Human corrections: 1
 
