@@ -1,0 +1,18 @@
+# Human judgements about this document's text, applied deterministically as a
+# final pipeline pass, so re-running reproduces the same output.
+#
+# A correction describes the text; a pass describes how to read the source.
+# If you are writing one to undo something the parser did, you needed a pass
+# or a bug fix instead — see scripts/ingest/README.md.
+#
+# Every correction must match exactly once. Zero matches, or more than one,
+# fails the build naming the id: a stale correction is a loud error rather
+# than rotting quietly into a lie about what was reviewed.
+version: 1
+corrections:
+  - id: c-0001
+    where: { volume: 1, printed: 45 }
+    find: "some post- mortems had not"
+    replace: "some post-mortems had not"
+    reason: "Summary 3.102 breaks \"post-mortems\" at the hyphen at a line end (printed p.45, PDF p.50). The Summary report spells it hyphenated throughout; Volumes I and II also print \"postmortems\" (15 times), so with the volumes in the document the hyphen rejoin read the line-end hyphen as a break and served \"postmortems\". Checked against the page image (reportsthatmatter-gqsy.16.7)."
+    added: 2026-11-12
